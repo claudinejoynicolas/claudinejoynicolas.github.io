@@ -450,7 +450,11 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffb8b8;
+  background-color: #ffffff;
+}
+
+.timeline .img-top {
+  margin-top: 35px;
 }
 
 .timeline > li .timeline-image h4 {
@@ -497,7 +501,20 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
+.timeline .timeline-body {
+  font-size: 14px;
+}
+
+@media (min-width: 360px) {
+  .timeline .img-top {
+    margin-top: 15px;
+  }
+}
+
 @media (min-width: 768px) {
+  .timeline .img-top {
+    margin-top: 30px;
+  }
   .timeline:before {
     left: 50%;
   }
